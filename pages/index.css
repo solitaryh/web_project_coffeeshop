@@ -109,8 +109,7 @@
   margin-top: auto;
   align-items: flex-end;
 }
-.header__footer-list {
-  list-style-type: none;
+.header__schedule {
   padding: 0px;
   margin-left: 80px;
   margin-bottom: 40px;
@@ -127,7 +126,10 @@
 
   color: #838383;
 }
-.header__footer-paragraph {
+.header__paragraph {
+  margin: 0px;
+}
+.header__address {
   margin-top: 0px;
   padding: 0px;
   margin-bottom: 40px;
