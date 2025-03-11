@@ -327,11 +327,7 @@
 
 .form__item_el_terms {
   border-radius: 2px;
-  background-color: #2f80ed;
-  background-image: url(../images/check.svg);
   height: 20px;
   width: 20px;
-}
-.form__label-text {
-  padding-left: 12px;
+  margin-right: 12px;
 }
