@@ -238,6 +238,7 @@
   height: 100vh;
 }
 .reservation__title {
+  margin-bottom: 80px;
   margin-top: 100px;
   margin-right: auto;
   margin-left: auto;
@@ -252,18 +253,17 @@
   line-height: 52px;
 }
 .reservation__form {
-  margin-top: 80px;
   margin-right: auto;
   margin-left: auto;
   max-width: 385px;
 }
-.reservation__input-container {
+.form__input-container {
   display: flex;
   flex-direction: column;
   border: none;
   margin-bottom: 120px;
 }
-.reservation__item {
+.form__item {
   border-radius: 4px;
   font-family: Inter;
 
@@ -275,7 +275,7 @@
 
   line-height: 30px;
 }
-.reservation__label {
+.form__label {
   font-family: Inter;
 
   font-style: normal;
@@ -286,26 +286,26 @@
 
   line-height: 20px;
 }
-.reservation__item_el_nombre {
+.form__item_el_nombre {
   margin-top: 8px;
   margin-bottom: 32px;
 }
-.reservation__item_el_numero-de-comensales {
+.form__item_el_numero-de-comensales {
   height: 60px;
   margin-bottom: 32px;
 }
-.reservation__item_el_email::placeholder {
+.form__item_el_email::placeholder {
   padding-left: 20px;
   padding-top: 15px;
 }
-.reservation_item_el_pub-date {
+.form_item_el_pub-date {
   margin-bottom: 32px;
 }
-.reservation__item_el_email {
+.form__item_el_email {
   margin-bottom: 32px;
 }
 
-.reservation__button {
+.form__button {
   border-radius: 4px;
   max-width: 385px;
   height: 60px;
@@ -321,17 +321,17 @@
   line-height: 20px;
 }
 
-.reservation__button:hover {
+.form__button:hover {
   opacity: 0, 7;
 }
 
-.reservation__item_el_terms {
+.form__item_el_terms {
   border-radius: 2px;
   background-color: #2f80ed;
   background-image: url(../images/check.svg);
   height: 20px;
   width: 20px;
 }
-.reservation__label-text {
+.form__label-text {
   padding-left: 12px;
 }
