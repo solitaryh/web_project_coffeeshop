@@ -133,57 +133,59 @@
           <!--creacion de formulario-->
           <form class="reservation__form">
             <!--contenedor de entradas-->
-            <fieldset class="form__input-container">
+            <fieldset class="reservation__input-container">
               <!--nombre-->
-              <label for="nombre" class="form__label">Nombre *</label>
+              <label for="nombre" class="reservation__label">Nombre *</label>
               <input
                 type="text"
-                class="form__item form__item_el_nombre"
+                class="reservation__item reservation__item_el_nombre"
                 id="nombre"
                 name="nombre"
                 placeholder="Nombre"
               />
               <!--numero de comensales-->
-              <label for="numero-de-comensales" class="form__label"
+              <label for="numero-de-comensales" class="reservation__label"
                 >Número de comensales *</label
               >
               <input
                 type="number"
-                class="form__item form__item_el_numero-de-comensales"
+                class="reservation__item reservation__item_el_numero-de-comensales"
                 id="numero-de-comensales"
                 name="numero-de-comensales"
                 placeholder="1-8"
                 min="1"
                 max="8"
               />
-              <label for="pub-date" class="form__label">Fecha y hora *</label>
+              <label for="pub-date" class="reservation__label"
+                >Fecha y hora *</label
+              >
               <input
                 type="datetime-local"
-                class="form__item form__item_el_pub-date"
+                class="reservation__item reservation__item_el_pub-date"
                 id="pub-date"
                 name="pub-date"
               />
-              <label for="email" class="form__label"
+              <label for="email" class="reservation__label"
                 >Tu correo electrónico *</label
               >
               <input
                 type="email"
-                class="form__item form__item_el_email"
+                class="reservation__item reservation__item_el_email"
                 id="email"
                 name="email"
                 placeholder="email@email.com"
               />
-              <button type="text" class="form__button">
+              <button type="submit" class="reservation__button">
                 Reversar una mesa
               </button>
               <br />
-              <label for="terms" class="form__label">
+              <label for="terms" class="reservation__label">
                 <input
                   type="checkbox"
-                  class="form__item form__item_el_terms"
+                  class="reservation__item reservation__item_el_terms"
                   id="terms"
                   name="terms"
-                /><span class="form__label-text"
+                /><span class="reservation__label-text"
                   >Acepto los términos de uso</span
                 >
               </label>
