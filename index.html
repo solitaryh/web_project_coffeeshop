@@ -1,3 +1,5 @@
+<!-- parece que la pagina solo se ve como quiero cuando la tenga a 90% lo cual estoy seguro que no es correcto
+ pero no se como arreglarlo y siento que tomaria bastante, lo cual esta bien pero por ahora lo dejare asi para seguir avanzando-->
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -18,8 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Cafeteria</title>
   </head>
 
@@ -189,7 +190,40 @@
           </form>
         </section>
       </main>
-      <footer class="footer" id="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="el logo de la cafeteria en triplepeaks"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="logo de facebook"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="logo de instagram"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2025 Valentin Castillo</p>
+      </footer>
     </div>
   </body>
 </html>
